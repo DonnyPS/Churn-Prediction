@@ -1,5 +1,3 @@
-### Repository ini merupakan media penyimpanan file Final Project dari Kelompok 4-Mother Of Dataset untuk kelas Data Science Bootcamp Batch 25 di Rakamin Academy 
-
 # Churn-Prediction
 ### Oleh Kelompok MOD (Mother of Dataset):
  * Ashadah (ashadah44@gmail.com)
