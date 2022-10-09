@@ -11,20 +11,18 @@
  
 ## Business Understanding
 ### Problem Statement: 
-Sebuah perusahaan ecommerce ingin  memprediksi churn rate dan mempertahankan konsumen agar mereka tetap setia membeli barang dari perusahaan mereka.
+Dari data pelanggan suatu perusahaan ecommerce terdapat 17% pelanggan yang melakukan churn. Oleh karena itu perusahaan ingin  dapat mempertahankan konsumen agar mereka tetap setia membeli barang dari perusahaan mereka. 
 
 ### Goal:
-Pelanggan adalah aset yang paling penting dari semua jenis bisnis. Prospek usaha hanya mungkin dapat dilakukan dengan kehadiran pelanggan yang puas yang selalu setia dengan perusahaan. Untuk alasan ini, perusahaan harus merencanakan dan menerapkan strategi untuk menciptakan pelanggan,umumnya dikenal sebagai Customer Relationship Management (CRM).
-Customer Relationship Management (CRM) merupakan strategi bisnis yang bertujuan untuk mengelola hubungan dengan pelanggan yang memadukan proses antara manusia dan teknologi. Sistem CRM bertujuan untuk membantu, mempertahankan, mengelola, dan meningkatkan hubungan pelanggan setia dan langgeng atau di sebut juga dengan proses manejemen Churn.
-Perusahaan perlu melakukan prediksi untuk menentukan mana pelanggan yang loyal dan tidak loyal, sehingga nantinya perusahaan dapat menentukan strategi yang tepat untuk mengatasi churn rate yang tinggi dan bagaimana mempertahankan pelanggan.
+Perusahaan perlu melakukan prediksi untuk menentukan mana pelanggan yang loyal dan tidak loyal, sehingga nantinya perusahaan dapat menentukan strategi yang tepat untuk meningkatkan loyalitas dan menurunkan churn rate.
 
 ### Business metric:
-Customer Churn (Churn) mengacu pada hilangnya pelanggan yang mendaftar ke paket berbasis langganan. Atau bisa juga berlaku untuk pelanggan yang sering membeli dari perusahaan lalu berhenti membeli.
+Metrik yang digunakan adalah Customer Churn Rate (Churn Rate).
 Churn rate adalah persentase pelanggan yang tidak memperpanjang langganan atau berhenti membeli selama periode waktu tertentu, seperti sebulan, triwulan atau setahun.
 
 ### Objective:
-Churn prediction bertujuan untuk memprediksi peluang seorang pelanggan untuk churn sebelum pelanggan tersebut benar-benar melakukannya, dengan demikian perusahaan bisa memberikan treatment untuk meminimalisir kemungkinan mereka beralih ke perusahaan lain. Prediksi akan dilakukan dengan menggunakan machine learning dengan sebuah algoritma supervised learning yang akan mengklasifikasikan pelanggan menjadi churn atau tidak churn di masa mendatang.
-Tujuan akhir adalah mengurangi jumlah pelanggan yang beralih ke perusahaan lain atau berhenti membeli produk dari perusahaan dengan menggunakan machine learning untuk melakukan prediksi churn. Ini penting karena semakin tinggi churn rate, semakin kecil revenue yang akan perusahaan dapatkan.
+*  Mengurangi jumlah pelanggan yang beralih ke perusahaan lain atau berhenti membeli produk dari perusahaan dengan membangun model machine learning untuk melakukan prediksi pelanggan yang churn.
+*  Memberikan rekomendasi bisnis sehingga perusahaan dapat mencapai meningkatkan loyalitas dan menurunkan churn rate.
 
 ### Kesimpulan tahap eksplorasi dataset:
 *  Dataset memiliki 20 kolom dan 5630 baris, dari kolom tersebut kita bisa melakukan penghapusan kolom untuk kolom CustomerID (kolom ID) karena tidak dibutuhkan dalam pembuatan model.
