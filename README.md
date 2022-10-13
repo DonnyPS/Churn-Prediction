@@ -21,7 +21,7 @@ Metrik yang digunakan adalah Customer Churn Rate (Churn Rate).
 Churn rate adalah persentase pelanggan yang tidak memperpanjang langganan atau berhenti membeli selama periode waktu tertentu, seperti sebulan, triwulan atau setahun.
 
 ### Objective:
-*  Mengurangi jumlah pelanggan yang beralih ke perusahaan lain atau berhenti membeli produk dari perusahaan dengan membangun model machine learning untuk melakukan prediksi pelanggan yang churn.
+*  Membangun model machine learning untuk melakukan prediksi pelanggan yang churn.
 *  Memberikan rekomendasi bisnis sehingga perusahaan dapat mencapai meningkatkan loyalitas dan menurunkan churn rate.
 
 ### Kesimpulan tahap eksplorasi dataset:
@@ -41,15 +41,25 @@ Churn rate adalah persentase pelanggan yang tidak memperpanjang langganan atau b
    7.  DaySinceLastOrder dengan total nilai 307.
 
 ### Kesimpulan hasil EDA:
+*  Variabel numerik yang distribusinya skew positif (atau menceng ke kanan) karena mean < median < mode dan mempunyai nilai Outlier
+   *  Tenure
+   *  WarehouseToHome
+   *  NumberOfAddress
+   *  OrderAmountHikeFromlastYear
+   *  CouponUsed
+   *  OrderCount
+   *  DaySinceLastOrder
+   *  CashbackAmount
 *  Sebaran data secara kesuluruhan pelanggan tidak melakukan churn, dengan detil Churn sebanyak 17% dan No Churn sebanyak 83%.
 *  Untuk tenure, pelanggan berlangganan  paling sebentar mempunyai kecenderungan untuk melakukan Churn.
 *  Ada kecenderungan semakin tinggi kupon yang digunakan, semakin tinggi juga kecenderungan untuk melakukan Churn. 
 *  Dilihat dari perangkat yang digunakan untuk login, mobile phone merupakan pilihan orang yang melakukan churn.
-* Dilihat dari metode pembayaran, yang sering digunakan oleh pelanggan yang churn adalah debit card.
+*  Dilihat dari metode pembayaran, yang sering digunakan oleh pelanggan yang churn adalah debit card.
 *  Orang melakukan churn dilihat dari faktor jenis kelamin (gender), pria lebih sering melakukan churn.
 *  Pelanggan dengan status single merupakan pelanggan yang sering melakukan churn.
 *  Kolom Churn adalah variabel target yang menunjukkan apakah pelanggan pergi (yaitu meninggalkan perusahaan).
-*  Korelasi yang perlu diperhatikan adalah CouponUsed dan OrderCount → 0.75
+*  Pada dataset feature tidak memiliki korelasi dengan target.
+*  Korelasi yang mempunyai nilai 0.75 adalah CouponUsed dan OrderCount.
 
 ### Business Insight
 Bersumber dari laman CleverTap, mendapatkan pelanggan baru umumnya akan lebih mahal sebanyak 5 hingga 25 kali lipat jika dibandingkan dengan mempertahankan pelanggan yang sudah ada. Selain itu, mempertahankan pelanggan juga diklaim mampu memberikan dampak yang sangat besar pada growth rate daripada mendapatkan pelanggan baru.
