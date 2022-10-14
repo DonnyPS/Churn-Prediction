@@ -59,7 +59,7 @@ Churn rate adalah persentase pelanggan yang tidak memperpanjang langganan atau b
 *  Pelanggan dengan status single merupakan pelanggan yang sering melakukan churn.
 *  Kolom Churn adalah variabel target yang menunjukkan apakah pelanggan pergi (yaitu meninggalkan perusahaan).
 *  Pada dataset feature tidak memiliki korelasi dengan target.
-*  Korelasi yang mempunyai nilai 0.75 adalah CouponUsed dan OrderCount.
+*  Korelasi dengan menggunakan heatmap terdapat nilai 0.75 untuk CouponUsed dan OrderCount.
 
 ### Business Insight
 Bersumber dari laman CleverTap, mendapatkan pelanggan baru umumnya akan lebih mahal sebanyak 5 hingga 25 kali lipat jika dibandingkan dengan mempertahankan pelanggan yang sudah ada. Selain itu, mempertahankan pelanggan juga diklaim mampu memberikan dampak yang sangat besar pada growth rate daripada mendapatkan pelanggan baru.
